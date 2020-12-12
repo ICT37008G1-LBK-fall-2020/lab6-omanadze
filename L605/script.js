@@ -6,8 +6,6 @@ var students = [
     { FirstName: 'სოფო', LastName: 'დოღონაძე', PersonalNumber: '125' }
 ];
 
-console.log(Object.keys(students[0]));
-
 function displayStudentsTable(studentList) {
     let table = document.createElement('table');
     let head = document.createElement('thead');
